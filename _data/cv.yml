@@ -2,96 +2,67 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Yuheng Wu
     - name: Date of Birth
-      value: 14th March 1879
+      value: 2001.08.19
     - name: Languages
-      value: English, German
+      value: Chinese(native), English(fluent), Japanese(JLPT N2), Korean(Elementary)
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Bachelor
+      institution: Shanghai University, Shanghai, China
+      year: 2019 - 2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Major in Computer Science and Cyber Security
+        - graduate with top honor, GPA 3.83/4.0, rank 1/27
+        - research on AI for network under the supervision of Prof.Chenhong Cao
+    - title: Master
+      institution: Korea Advanced Institute of Science and Technology, Daejeon, South Korea
+      year: 2023 - 2025(expected)
       description:
-        - Description 1.
-        - Description 2.
+        - GPA 4.0/4.3
+        - Courses include CS672 Reinforcement Learning, etc.
 
-- title: Experience
+- title: Research Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Intern
+      institution: Research Institute of USV Engineering, Shanghai
+      year: 2020 
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - research on the semi-autonomous pneumatic robot for pipe inspection
+    - title: Research Intern
+      institution: INSS group at Shanghai University, Shanghai, China
+      year: 2021 - 2022
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+        - research on the Deep Reinforcement Learning for Computer Network and Edge Computing
 
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: <a href="https://github.com/open-mmlab/mmdetection3d">open-mmlab/mmdetection3d</a>
+      year: 2023-now
+      description: open source object detection toolbox based on PyTorch for general 3D detection
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2020
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - Exceptional Award for Academics
+        - top 3% through the acedemic year
+    - year: 2021
       items:
-        - Max Planck Medal
+        - Exceptional Award for Academics
+        - top 3% through the acedemic year
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Deep Learning for Generative Content
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+        - generate creative content via deep learning, including text, sound and picture
+        - align the content generation with human preference through deep reinforcement learning
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
